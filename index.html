@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Music</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/hover.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</head>
+<body>
+  <script src="app.js"></script>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <div class="container py-1">
+                <a class="navbar-brand pl-3" href="#">Music<img class="img-fluid" src="/img/gitar6.png" alt=""></a>     
+            </div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse pl-3 navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav mr-5">
+                  <li class="nav-item menu active">
+                    <a class="nav-link " href="#">ANASAYFA</a>
+                  </li>
+                  <li class="nav-item menu active">
+                    <a class="nav-link" href="#">HİZMETLERİMİZ</a>
+                  </li>
+                  <li class="nav-item menu active">
+                    <a class="nav-link" href="#">HAKKIMIZDA</a>
+                  </li>
+                  <li class="nav-item menu active">
+                    <a class="nav-link" href="#">GALERİ</a>
+                  </li>
+                  <li class="nav-item  menu active">
+                    <a class="nav-link" href="#">İLETİŞİM</a>
+                  </li>
+                  <li class="nav-item active d-none d-sm-none d-md-none d-lg-block mx-5">
+                    <span class="nav-link" href="">
+                        |
+                    </span>
+                  </li>
+                    <li class="nav-item  social twitter active">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li class="nav-item  social instagram active">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li class="nav-item  social youtube active">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-youtube"></i>   
+                        </a>
+                      <li class="nav-item  social ticket active">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-ticket-alt"></i>
+                        </a>
+                      </li>
+                  
+                </ul>
+              </div>
+        </nav>
+        <section class="intro">
+            <div class="overlay"></div>
+              <video id="video" class="" playsinline="playsinline" autoplay="autoplay" muted="muted"  loop="loop">
+                <source src="/img/Pexels Videos 2022396.mp4" type="video/mp4">
+              </video>
+              <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                  <div class=" col-xl-6 col-lg-6 col-md-12 col-12 w-100 text-white">
+                    <h2 class="display-1 intro-h2" style="font-weight: 600;">
+                      Eğlenmeye Hazır Mısınız? <br>
+                      <span class="change-text"></span>
+                    </h2>
+                    <hr class="my-5" color="white">
+                    <div class="row">
+                        <div class="col-6">
+                            <a href=""><img class="img-fluid" src="/img/appstore.png" alt=""></a>
+                        </div>
+                        <div class="col-6">
+                            <a href=""><img class="img-fluid" src="/img/googleplay.png" alt=""></a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col md-12 col-12  intro-img">
+                      <img class="img-fluid" src="/img/man5.png" alt="">
+                  </div>
+                </div>
+              </div>
+        </section>
+    </header>
+
+    <main>
+      <section class="slider">
+        <div class="container ">
+          <div class="container py-3">
+            <div id="carouselExampleIndicators" class="carousel my-5 shadow-lg slide container py-5 px-5" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-deck">
+                    <div class="card hvr-shrink">
+                      <img src="img/parti1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="card hvr-shrink">
+                      <img src="img/kutlama1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, fuga?
+                        </p>
+                      </div>
+                      
+                    </div>
+                    <div class="card hvr-shrink">
+                      <img src="img/drink.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                              
+                </div>
+                <div class="carousel-item">
+                  <div class="card-deck">
+                    <div class="card hvr-shrink">
+                      <img src="img/drink.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="card hvr-shrink">
+                      <img src="img/kutlama1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="card hvr-shrink">
+                      <img src="img/parti1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="carousel-item">
+                  <div class="card-deck">
+                    <div class="card hvr-shrink">
+                      <img src="img/kutlama1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="card hvr-shrink">
+                      <img src="img/drink.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                      
+                    </div>
+                    <div class="card hvr-shrink">
+                      <img src="img/parti1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <div class="row justify-content-center">
+                          <i class="fas fa-chevron-circle-down"></i>
+                        </div>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+        </div>
+      </section>
+    
+      <section class="hakkimizda-bg">
+        <div class="container">
+          <div class="row justify-content-center hakkimizda">
+            <h1>HAKKIMIZDA</h1>
+            <p class="pt-5 px-5 mx-xl-5" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium doloremque tenetur recusandae quos est nostrum tempore quod debitis non officiis aliquid deserunt ad numquam quia earum consequatur, aspernatur fugit illum voluptatibus necessitatibus, facilis, in alias laborum. Labore distinctio molestiae provident quas officia officiis? Quaerat incidunt sapiente maxime odio repudiandae, debitis dolorem. Ullam sequi totam accusamus dolores velit consequuntur omnis eveniet voluptatem maxime dolorum eaque quos repudiandae, cupiditate adipisci reprehenderit dolore laboriosam doloremque impedit deleniti aliquam earum? Dolorem assumenda vitae beatae fuga veniam labore distinctio. Porro culpa laboriosam officia cum possimus dolores consectetur nam incidunt, perferendis ipsa! Voluptatum eveniet odio sapiente ipsum saepe blanditiis debitis, exercitationem aliquid accusantium! Perspiciatis quis inventore odit ex aperiam voluptas totam, hic ab praesentium nobis id consectetur? Quisquam labore quidem veritatis. Iste eos asperiores rerum cupiditate aliquid repellat debitis fuga amet facere accusamus? Dicta nostrum temporibus similique, nemo error quia adipisci, sit libero quod quidem ipsam?</p>
+            <div class="py-5 my-5 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 hakkimizda-img hakkimizda-img1">
+            </div>
+            <div class="py-5 my-5 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 hakkimizda-img hakkimizda-img2">
+            </div>
+            <div class="py-5 my-5 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 hakkimizda-img hakkimizda-img3">
+            </div>
+            <p class="py-5 px-5 mx-xl-5" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium doloremque tenetur recusandae quos est nostrum tempore quod debitis non officiis aliquid deserunt ad numquam quia earum consequatur, aspernatur fugit illum voluptatibus necessitatibus, facilis, in alias laborum. Labore distinctio molestiae provident quas officia officiis? Quaerat incidunt sapiente maxime odio repudiandae, debitis dolorem. Ullam sequi totam accusamus dolores velit consequuntur omnis eveniet voluptatem maxime dolorum eaque quos repudiandae, cupiditate adipisci reprehenderit dolore laboriosam doloremque impedit deleniti aliquam earum? Dolorem assumenda vitae beatae fuga veniam labore distinctio. Porro culpa laboriosam officia cum possimus dolores consectetur nam incidunt, perferendis ipsa! Voluptatum eveniet odio sapiente ipsum saepe blanditiis debitis, exercitationem aliquid accusantium! Perspiciatis quis inventore odit ex aperiam voluptas totam, hic ab praesentium nobis id consectetur? Quisquam labore quidem veritatis. Iste eos asperiores rerum cupiditate aliquid repellat debitis fuga amet facere accusamus? Dicta nostrum temporibus similique, nemo error quia adipisci, sit libero quod quidem ipsam?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="galeri-bg">
+        <h1 class="pt-5 text-white" style="text-align: center;">GALERİ</h1>
+        <div class="container py-5 galeri">
+          <div class="row">
+            <div class="px-4 py-4 galeri-1 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+            <div class="px-4 py-4 galeri-2 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+            <div class="px-4 py-4 galeri-3 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+            <div class="px-4 py-4 galeri-4 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+            <div class="px-4 py-4 galeri-5 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+            <div class="px-4 py-4 galeri-6 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+            <div class="px-4 py-4 galeri-7 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+            <div class="px-4 py-4 galeri-8 col-lg-3 col-md-3 col-sm-6 col-12"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container  py-5">
+          <form action="" id="contact-form" class="container hvr-pop shadow-lg contact-form px-5 py-5">
+            <div class="row contact-row">
+              <div class="contact-col col-12 py-5">
+                <h1 id="contact-h1">Contact Us</h1>
+                <p id="contact-p">We'd love to hear from you, please drop us a line if you've any query related to our products or services.</p>
+              </div>
+              <div class="col-12">
+                <div class="input-group mb-3">                
+                  <input type="text" class="form-control" placeholder="Name ..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="input-group mb-3">               
+                  <input type="text" class="form-control" placeholder="Surname ..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="E-mail ..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="input-group mb-5">
+                  <textarea class="form-control contact-area" placeholder="Your message ..." aria-label="With textarea"></textarea>
+                </div>
+              </div>
+              <div class="col-12">
+                <button id="contact-button" type="button" class="text-white btn">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <footer>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center bg- py-4">© 2020 Copyright:
+          <a href="#copyright"> KodlaKazan.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </footer>
+
+    
+</body>
+</html>

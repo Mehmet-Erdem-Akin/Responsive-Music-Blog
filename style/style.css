@@ -1,0 +1,307 @@
+
+/*  HEADER START */
+
+.navbar {
+    background-color: purple;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand >img {
+    width: auto;
+    height: 50px !important;
+}
+.navbar-toggler {
+    margin-top: -50px;
+}
+
+.menu {
+    font-weight: bold;
+}
+.menu a:hover {
+  display: inline;
+    border-bottom: 3px solid white;
+}
+
+.social {
+    float: left;
+}
+
+.twitter a:hover {
+    color: #1CA1F2 !important;
+}
+.instagram a:hover {
+    color: #ED4956 !important;
+}
+.youtube a:hover {
+    color: #FF4636 !important;
+}
+.ticket a:hover {
+    color: lightblue !important;
+}
+
+
+/* intro start */
+
+
+#video {
+    width: auto !important;
+    height: 100% !important; 
+    opacity: 0.5 !important;
+}
+
+.intro {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%; 
+    overflow: hidden;
+  }
+  
+  .intro video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: ;
+    height: 100%;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+  }
+  
+  .intro .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .intro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #F04D61;
+    opacity: 0.2;
+    z-index: 1;
+  }
+
+  .intro-h2{
+    /* margin: 200px 100px 500px 200px; */
+    padding: 0;
+    font-family: arial;
+    font-size: 56px !important;
+    text-shadow: 0 10px 3px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  .change-text:before{
+    content:'free music';
+    color:  rgb(0, 153, 255);
+    animation: yazı infinite 10s;
+  }
+  @keyframes yazı{
+    35%{content:'free fun';}
+    50%{content:'free drinks';}
+    85%{content:'new friends';}
+  }
+
+/* intro finish */
+
+/*  HEADER FİNİSH */
+
+/* MAİN START */
+
+.slider {
+  background-color: purple !important;
+}
+
+.carousel {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: purple !important;
+}
+.carousel-indicators  > li{
+  color: black !important;
+}
+.card-img-top {
+  width: auto;
+  height: 180px;
+  border-radius: 20px !important;
+  transition: 1s}
+
+.card-img-top:hover {
+  transition: 1s;
+  opacity: 0.6;
+}
+
+.card {
+  border-radius: 20px !important;
+}
+.card-body > .row > i{
+  border-radius: 100px;
+  z-index: 10;
+  padding: 25px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: purple !important;
+}
+
+/* Hakkımızda Start */
+
+.hakkimizda-bg {
+  background-image: url('/img/parallax-bg4.jpg');
+}
+
+.hakkimizda > h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hakkimizda > p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hakkimizda-img1 {
+  background-size: cover;
+  background-image: url('/img/parti1.jpg');
+  width: auto;
+  height: 270px !important;
+}
+.hakkimizda-img2 {
+  background-size: cover;
+  background-image: url('/img/kutlama1.jpg');
+  width: auto;
+  height: 270px !important;
+}
+.hakkimizda-img3 {
+  background-size: cover;
+  background-image: url('/img/drink.jpg');
+  width: auto;
+  height: 270px !important;
+}
+
+.hakkimizda-img {
+  transition: 1s;
+  opacity: 1;
+}
+.hakkimizda-img:hover {
+  transition: 1s;
+  border-radius: 60px;
+  opacity: 0.6;
+}
+
+/* Hakkımızda Finish */
+
+/* Galeri Start */
+
+.galeri-bg {
+  background-color: purple;
+}
+.galeri > .row {
+  border: 5px solid white;
+} 
+.galeri-1{
+background-image: url('/img/kutlama1.jpg');
+background-size: cover;
+width: auto;
+height: 250px;
+border: 10px solid white;
+}
+.galeri-2{
+  background-image: url('/img/drink.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+}
+.galeri-3{
+  background-image: url('/img/wedding.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeri-4{
+  background-image: url('/img/parti1.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeri-5{
+  background-image: url('/img/wedding.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeri-6{
+  background-image: url('/img/parti1.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeri-7{
+  background-image: url('/img/drink.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+.galeri-8{
+  background-image: url('/img/kutlama1.jpg');
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  border: 10px solid white;
+
+}
+
+.galeri > .row > .px-4 {
+transition: 1s;
+}
+.galeri > .row > .px-4:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
+
+/*  Galeri Finish  */
+
+/* Contact Start */
+
+.contact {
+  color: white;
+  background-image: url('/img/parallax-bg4.jpg');
+}
+.contact-form {
+  background-color: purple;
+  border-radius: 20px;
+}
+
+/* Contact Finish */
+
+/* MAİN FİNİSH */
+
+footer {
+  background-color: purple;
+  color: white;
+}
+
+.footer-copyright > a {
+  color: white;
+}
